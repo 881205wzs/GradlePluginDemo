@@ -144,5 +144,6 @@ Total time: 7.195 secs
 [DAVIS] build finished.
 
 ```
-<br>
-对于Gradle插件的原来和实现的更多介绍，请关注我的个人博客文章：[Android Studio 自定义Gradle Plugin](https://blog.csdn.net/wangzhongshun/article/details/88381058)
+
+对于Gradle插件的原来和实现的更多介绍，请关注我的个人博客文章：
+[Android Studio 自定义Gradle Plugin](https://blog.csdn.net/wangzhongshun/article/details/88381058)
