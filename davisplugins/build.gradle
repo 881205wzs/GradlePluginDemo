@@ -1,0 +1,23 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+dependencies{
+    compile gradleApi()
+    compile localGroovy()
+    compile 'com.android.tools.build:gradle:1.5.0'
+}
+
+repositories{
+    mavenCentral()
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            pom.groupId = 'com.davisplugins'
+            pom.artifactId = 'davis'
+            pom.version = 1.0
+            repository(url: uri('../DavisPlugin'))
+        }
+    }
+}
